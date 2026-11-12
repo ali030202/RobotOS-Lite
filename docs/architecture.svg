@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="RobotOS-Lite architecture: Vue dashboard, FastAPI, ROS bridge, controller, and simulator">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0969da"/></marker>
+  </defs>
+  <rect x="1" y="1" width="998" height="298" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <g font-family="Arial, sans-serif" fill="#1f2328" text-anchor="middle">
+    <text x="500" y="34" font-size="20" font-weight="700">RobotOS-Lite Software Architecture</text>
+    <text x="500" y="57" font-size="12" fill="#59636e">Personal project · two-axis robot simulation</text>
+    <g fill="#f6f8fa" stroke="#d0d7de">
+      <rect x="24" y="110" width="160" height="90" rx="10"/>
+      <rect x="222" y="110" width="160" height="90" rx="10"/>
+      <rect x="420" y="110" width="160" height="90" rx="10"/>
+      <rect x="618" y="110" width="160" height="90" rx="10"/>
+      <rect x="816" y="110" width="160" height="90" rx="10"/>
+    </g>
+    <g font-size="16" font-weight="700">
+      <text x="104" y="146">Vue 3</text><text x="302" y="146">FastAPI</text>
+      <text x="500" y="146">ROS Bridge</text><text x="698" y="146">Controller</text><text x="896" y="146">Simulator</text>
+    </g>
+    <g font-size="12" fill="#59636e">
+      <text x="104" y="172">Browser dashboard</text><text x="302" y="172">Conda Python 3.9</text>
+      <text x="500" y="172">System Python 3.12</text><text x="698" y="172">C++ / ROS 2 Jazzy</text><text x="896" y="172">Two-axis model</text>
+      <text x="203" y="93">HTTP / WS</text><text x="401" y="222">Unix socket</text>
+      <text x="599" y="93">ROS interfaces</text><text x="797" y="222">Velocity / State</text>
+      <text x="500" y="267">GoogleTest + pytest: state transitions, API contracts, task operations, and fault recovery</text>
+    </g>
+  </g>
+  <g stroke="#0969da" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)">
+    <path d="M 188 155 H 218"/><path d="M 386 155 H 416"/>
+    <path d="M 584 155 H 614"/><path d="M 782 155 H 812"/>
+  </g>
+</svg>

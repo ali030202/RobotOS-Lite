@@ -14,13 +14,9 @@
 
 ## 架构
 
-```mermaid
-flowchart LR
-    UI[Vue 3 运维页面] <-->|HTTP / WebSocket| API[FastAPI]
-    API <-->|本机 Unix socket| Bridge[ROS Python 桥接]
-    Bridge <-->|Topic / Action / Service| Controller[C++ 控制节点]
-    Controller <-->|速度命令 / 关节状态| Sim[C++ 两轴仿真器]
-```
+![RobotOS-Lite 软件架构](docs/architecture.svg)
+
+数据流：Vue 页面 ↔ FastAPI ↔ 本机 ROS 桥接 ↔ C++ 控制节点 ↔ 两轴仿真器。
 
 ## 环境
 
