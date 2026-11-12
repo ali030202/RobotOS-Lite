@@ -1,0 +1,17 @@
+{
+  "mode": "IDLE",
+  "fault_code": "NONE",
+  "sensor_fresh": true,
+  "position": [
+    0.015013362406679172,
+    -0.015013362406679172
+  ],
+  "target": [
+    0.0,
+    0.0
+  ],
+  "active_task_id": "",
+  "progress": 1.0,
+  "observed_at": "2026-11-12T02:56:06.189104+00:00",
+  "age_ms": 165
+}

@@ -1,0 +1,25 @@
+Starting >>> robotos_interfaces
+Finished <<< robotos_interfaces [10.5s]
+Starting >>> robotos_core
+--- stderr: robotos_core
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PYTHON_EXECUTABLE
+
+
+---
+Finished <<< robotos_core [15.8s]
+Starting >>> robotos_bringup
+--- stderr: robotos_bringup
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PYTHON_EXECUTABLE
+
+
+---
+Finished <<< robotos_bringup [0.99s]
+
+Summary: 3 packages finished [27.4s]
+  2 packages had stderr output: robotos_bringup robotos_core
